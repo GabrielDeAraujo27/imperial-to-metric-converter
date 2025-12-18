@@ -1,9 +1,11 @@
 function displayResults(value) {
-    chrome.runtime.sendMessage({
-        type: 'ConvertedNumber',
-        value: value,
-        showNotification: false
-    });
+    if (chrome.runtime && !!chrome.runtime.id) {
+        chrome.runtime.sendMessage({
+            type: 'ConvertedNumber',
+            value: value,
+            showNotification: false
+        });
+    }
 }
 
 function convertValue(old_value, multiplier, unit) {
@@ -134,9 +136,11 @@ function main() {
     if (converted_text) {
         displayResults(converted_text);
     } else {
-        chrome.runtime.sendMessage({
-            type: 'HideContextMenu'
-        });
+        if (chrome.runtime && !!chrome.runtime.id) {
+            chrome.runtime.sendMessage({
+                type: 'HideContextMenu'
+            });
+        }
     }
 }
 
