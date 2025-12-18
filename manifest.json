@@ -1,7 +1,7 @@
 {
-  "name": "Converter",
-  "description": "Base Level Extension",
-  "version": "1.0",
+  "name": "Imperial to Metric Converter",
+  "description": "Automatically converts imperial units to metric units in the context menu when text is selected.",
+  "version": "1.1",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
@@ -15,6 +15,17 @@
   ],
   "action": {
     "default_popup": "converter.html",
-    "default_icon": "converter.png"
+    "default_icon": {
+      "16": "converter.png",
+      "32": "converter.png",
+      "48": "converter.png",
+      "128": "converter.png"
+    }
+  },
+  "icons": {
+    "16": "converter.png",
+    "32": "converter.png",
+    "48": "converter.png",
+    "128": "converter.png"
   }
 }

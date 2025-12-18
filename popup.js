@@ -1,8 +1,4 @@
-function select_text() {
-    const selected_text = window.getSelection().toString().trim()
-    console.log(selected_text)
-}
-
-console.log("hello world");
-document.addEventListener('mouseup', select_text);
+// No special logic needed for popup currently,
+// but we keep it to handle potential future features.
+console.log("Imperial to Metric Converter popup loaded.");
 
