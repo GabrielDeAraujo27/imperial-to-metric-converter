@@ -11,55 +11,55 @@ function displayResults(value) {
 function inches_to_cm(old_value) {
     var new_value = parseFloat(old_value.replace(/[^0-9.,]/g,''))
     new_value = (new_value * 2.54) + " cm"
-    console.log('inches')
+    //console.log('inches')
     return new_value
 }
 function foot_to_cm(old_value) {
     var new_value = parseFloat(old_value.replace(/[^0-9.,]/g,''))
     new_value = (new_value * 30.48) + " cm"
-    console.log('foot')
+    //console.log('foot')
     return new_value
 }
 function yard_to_m(old_value) {
     var new_value = parseFloat(old_value.replace(/[^0-9.,]/g,''))
     new_value = (new_value * 0.9144) + " m"
-    console.log('yard')
+    //console.log('yard')
     return new_value
 }
 function mile_to_km(old_value) {
     var new_value = parseFloat(old_value.replace(/[^0-9.,]/g,''))
     new_value = (new_value * 1.609) + " km"
-    console.log('mile')
+    //console.log('mile')
     return new_value
 }
 function ounce_to_grams(old_value) {
     var new_value = parseFloat(old_value.replace(/[^0-9.,]/g,''))
     new_value = (new_value * 28.35) + " g"
-    console.log('ounce')
+    //console.log('ounce')
     return new_value
 }
 function pound_to_kg(old_value) {
     var new_value = parseFloat(old_value.replace(/[^0-9.,]/g,''))
     new_value = (new_value * 0.454) + " kg"
-    console.log('pound')
+    //console.log('pound')
     return new_value
 }
 function fahrenheit_to_c(old_value) {
     var new_value = parseFloat(old_value.replace(/[^0-9.,]/g,''))
     new_value = ((new_value - 32) * 5 / 9) + " °c"
-    console.log('fahrenheit')
+    //console.log('fahrenheit')
     return new_value
 }
 function gallon_to_liter(old_value) {
     var new_value = parseFloat(old_value.replace(/[^0-9.,]/g,''))
     new_value = (new_value * 3.785) + " l"
-    console.log('gallon')
+    //console.log('gallon')
     return new_value
 }
 function cup_to_ml(old_value) {
     var new_value = parseFloat(old_value.replace(/[^0-9.,]/g,''))
     new_value = (new_value * 236.588) + " ml"
-    console.log('cup')
+    //console.log('cup')
     return new_value
 }
 
