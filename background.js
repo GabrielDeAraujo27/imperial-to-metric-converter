@@ -13,7 +13,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.type === 'ConvertedNumber') {
     currentConvertedValue = message.value;
     chrome.contextMenus.update("convertedValue", {
-      title: "Converted: " + message.value + " (Click to copy)",
+      title: "Converted: " + message.value,
       visible: true
     });
   } else if (message.type === 'HideContextMenu') {
