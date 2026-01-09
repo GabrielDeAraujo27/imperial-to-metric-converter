@@ -9,9 +9,17 @@ A simple Chrome Extension that helps you convert imperial units (like inches, po
 - **Copy to Clipboard**: Click the converted value in the menu to copy it instantly.
 - **Wide Range of Units**: Supports length, weight, volume, and temperature.
 
-### 🚀 How to Install (For Beginners)
+### 🚀 How to Install
 
-Since this extension is not yet on the Chrome Web Store, you can install it manually using these steps:
+The easiest way to install the extension is through the Chrome Web Store:
+
+1. **Visit the Store**: Open the [Imperial to Metric Converter](https://chromewebstore.google.com/detail/imperial-to-metric-conver/mmikpcmbalfahkejnanokjdkgmeejcba) page.
+2. **Add to Chrome**: Click the **"Add to Chrome"** button.
+3. **Confirm**: Click **"Add extension"** in the popup.
+
+### 🛠️ Manual Installation (For Developers)
+
+If you prefer to install it manually from the source code, follow these steps:
 
 1. **Download the code**: Click the "Code" button at the top of this page and select [Download ZIP](https://github.com/GabrielDeAraujo27/imperial-to-metric-converter/archive/refs/heads/main.zip).
 2. **Unzip the file**: Extract the downloaded ZIP file to a folder on your computer.
